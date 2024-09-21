@@ -33,15 +33,7 @@ A robust, full-stack e-commerce platform for shoe brands, built with a modern te
 
 ### Client
 
-/client
-  ├── public                # Static assets
-  ├── src
-  │   ├── components        # Reusable UI components
-  │   ├── pages             # React pages (Home, Products, Cart, etc.)
-  │   ├── App.js            # Main application component
-  │   ├── index.js          # Entry point for React app
-  ├── tailwind.config.js    # Tailwind CSS configuration
-  └── vite.config.js        # Vite configuration for bundling
+<pre> ```bash /client ├── public # Static assets ├── src │ ├── components # Reusable UI components │ ├── pages # React pages (Home, Products, Cart, etc.) │ ├── App.js # Main application component │ ├── index.js # Entry point for React app ├── tailwind.config.js # Tailwind CSS configuration └── vite.config.js # Vite configuration ``` </pre>
 
 
 
