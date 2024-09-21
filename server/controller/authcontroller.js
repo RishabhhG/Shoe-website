@@ -338,7 +338,7 @@ exports.auth0Callback = async (req, res) => {
         user = new User({
           name: auth0User.name,
           email: auth0User.email,
-          auth0Id: auth0User.sub,
+          //auth0Id: auth0User.sub,
         });
       } else {
         user.auth0Id = auth0User.sub;

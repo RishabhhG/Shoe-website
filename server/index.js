@@ -8,11 +8,7 @@ const authroute = require('./routes/authroute')
 const cookieParser = require('cookie-parser');
 app.use(cookieParser()); // Enable cookies in your application
 
-app.use(cors({
-  origin: 'http://localhost:5173', // Allow only this origin
-  methods: ['GET', 'POST', 'PUT', 'PATCH', 'DELETE'], // Allow only these methods
-  credentials : true
-}));
+app.use(cors());
 
  
 app.use(express.json());
