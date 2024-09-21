@@ -264,8 +264,8 @@ exports.payment = async (req, res) => {
           },
         ],
         mode: 'payment',
-        success_url: 'http://localhost:5173/success',
-        cancel_url: 'http://localhost:5173/cancel',
+        success_url: 'https://rishab.info.gf/success',
+        cancel_url: 'https://rishab.info.gf/cancel',
         customer_email: email || 'demo@gmail.com',  // Fallback email
       });
   
